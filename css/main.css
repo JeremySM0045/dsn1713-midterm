@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap");
+
+/* Set custom variables here */
+
+:root {
+  --ff-ss: "Sarala", sans-serif;
+  --ff-s: "Merriweather", serif;
+
+  --primary: #2e483a;
+  --light: #f6f3ed;
+  --dark: #08070d;
+
+  --white: #fff;
+
+  /*   Overriding existing variables with Bootstrap */
+  --bs-body-bg: #f6f3ed;
+  
+  --bs-body-color: #212529; 
+
+
+  --bs-primary-color: #2e483a;
+  --bs-primary-rgb: 46 72 58;
+  /*   --bs-primary-rgb: 36, 32, 55; */
+
+  /*   --bs-secondary-rgb: 114, 90, 193; */
+
+  --bs-light: #f7ece1;
+  /*   --bs-light-rgb: 247, 236, 225; */
+
+  --bs-dark: #08070d;
+  /*   --bs-dark-rgb: 8, 7, 13; */
+}
+
+nav {
+  background-color: var(--bs-primary-color);
+}
+
+
+.navbar-brand {
+  color: #f6f3ed;
+}
+
+body {
+  font-family: "Sarala", sans-serif;
+  background-color: var(--bs-body-bg);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+}
+
+#hero {
+  height: 800px;
+  background-color: #e4e6db;
+  background-image: url(../images/hero-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero .d-flex {
+  height: 800px;
+}
+
+#cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/cta-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#cta .d-flex {
+  height: 400px;
+}
+
+section:not(#hero):not(#cta) {
+  padding: 60px 0;
+}
+
+@media (min-width: 993px) {
+  section:not(#hero):not(#cta) {
+    padding: 100px 0;
+  }
+}
