@@ -6,7 +6,8 @@
   --ff-ss: "Sarala", sans-serif;
   --ff-s: "Merriweather", serif;
 
-  --primary: #2e483a;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58; 
   --light: #f6f3ed;
   --dark: #08070d;
 
@@ -18,9 +19,9 @@
   --bs-body-color: #212529; 
 
 
-  --bs-primary-color: #2e483a;
-  --bs-primary-rgb: 46 72 58;
-  /*   --bs-primary-rgb: 36, 32, 55; */
+  --bs-primary: #2e483a;
+  /* --bs-primary-rgb: 46 72 58;
+    --bs-primary-rgb: 36, 32, 55; */
 
   /*   --bs-secondary-rgb: 114, 90, 193; */
 
@@ -31,9 +32,9 @@
   /*   --bs-dark-rgb: 8, 7, 13; */
 }
 
-nav {
+/* nav {
   background-color: var(--bs-primary-color);
-}
+} */
 
 
 .navbar-brand {
