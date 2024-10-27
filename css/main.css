@@ -7,7 +7,9 @@
   --ff-s: "Merriweather", serif;
 
   --bs-primary: #2e483a;
-  --bs-primary-rgb: 46, 72, 58; 
+  --bs-primary-rgb: 46, 72, 58;
+  --btn-primary: #2e483a; 
+  --btn-primary-rgb: 46, 72, 58;
   --light: #f6f3ed;
   --dark: #08070d;
 
