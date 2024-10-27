@@ -59,7 +59,7 @@ h3 {
 #hero {
   height: 800px;
   background-color: #e4e6db;
-  background-image: url(../images/hero-bg-img.png);
+  background-image: url("../images/hero-bg-img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
